@@ -1,0 +1,22 @@
+{
+  "name": "CHAT-ROAM",
+  "version": "1.0.0",
+  "description": "A simple Node.js application",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "npm run dev",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "node",
+    "example"
+  ],
+  "author": "Arjun",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.14",
+    "socket.io": "^4.8.3"
+  }
+}
